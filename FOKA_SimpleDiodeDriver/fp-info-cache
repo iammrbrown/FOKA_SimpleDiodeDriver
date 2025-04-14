@@ -1,4 +1,4 @@
-24201457826048097
+24213591635145854
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86439,6 +86439,55 @@ Potentiometer_THT
 Potentiometer_Vishay_T93YA_Vertical
 Potentiometer, vertical, Vishay, https://www.vishay.com/docs/51026/t93.pdf
 Potentiometer vertical vishay
+0
+3
+3
+Power_Connectors
+691311500102
+Vertical 5.08 mm Wuerth Connector 
+phoenix_contact connector MSTBA_01x02_G_5.08mm
+0
+2
+2
+Power_Connectors
+691313510002
+Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)
+phoenix_contact connector MSTBA_01x02_G_5.08mm
+0
+2
+2
+Power_Connectors
+691313510003
+Wurth Elektronik pluggable Header; number of pins: 03; pin pitch: 5.08mm; Angled
+phoenix_contact connector MSTBA_01x03_G_5.08mm
+0
+3
+3
+Power_Connectors
+691382010002
+Wurth Elektronik pluggable Header; number of pins: 02; pin pitch: 2.5mm; Angled
+
+0
+2
+2
+Power_Connectors
+691382010003
+Wurth Elektronik pluggable Header; number of pins: 03; pin pitch: 2.5mm; Angled
+
+0
+3
+3
+Power_Connectors
+691412320002M
+Wuerth Serie 4123 M - 3.81mm Screwless Connector
+phoenix_contact connector MSTBA_01x02_G_5.08mm
+0
+2
+2
+Power_Connectors
+Screw_Terminal_01x03_5_08mm
+Terminal Block Phoenix MKDS-1,5-3-5.08, 3 pins, pitch 5.08mm, size 15.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-3-5.08 pitch 5.08mm size 15.2x9.8mm^2 drill 1.3mm pad 2.6mm
 0
 3
 3
