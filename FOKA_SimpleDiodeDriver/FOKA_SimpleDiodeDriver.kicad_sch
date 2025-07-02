@@ -2373,6 +2373,16 @@
 		)
 		(uuid "27aecf71-8231-471a-b53c-8746454ae939")
 	)
+	(text "0,4V FWD"
+		(exclude_from_sim no)
+		(at 135.382 89.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "282fc24a-1ade-417a-804b-34fe0022a4b2")
+	)
 	(text "filtering\noptional"
 		(exclude_from_sim no)
 		(at 144.78 108.712 0)
@@ -4573,7 +4583,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 100.838 87.63 0)
 			(effects
 				(font
@@ -4681,6 +4691,75 @@
 			(project "FOKA_SimpleDiodeDriver"
 				(path "/06dea30e-cb94-4d69-b691-0bfb7fef4029"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 91.44 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3aaa4d80-936a-4cf1-a77d-5aea73b982c6")
+		(property "Reference" "R7"
+			(at 88.9 90.1699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15k"
+			(at 88.9 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a4d721f-4632-44c5-9766-ea4779a57284")
+		)
+		(pin "2"
+			(uuid "37875cd2-f9bc-4a71-946d-f677d0400597")
+		)
+		(instances
+			(project "FOKA_SimpleDiodeDriver"
+				(path "/06dea30e-cb94-4d69-b691-0bfb7fef4029"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5126,7 +5205,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 91.44 83.82 0)
 			(effects
 				(font
@@ -6114,75 +6193,6 @@
 			(project "FOKA_SimpleDiodeDriver"
 				(path "/06dea30e-cb94-4d69-b691-0bfb7fef4029"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 91.44 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c241fba7-f84b-432e-87fc-f42587a81b4e")
-		(property "Reference" "R7"
-			(at 88.9 90.1699 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "15k"
-			(at 88.9 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9658507-c4be-47da-8292-afceeb61d555")
-		)
-		(pin "2"
-			(uuid "aad8860a-fdb3-4345-9bfd-050dd5cdb72e")
-		)
-		(instances
-			(project "FOKA_SimpleDiodeDriver"
-				(path "/06dea30e-cb94-4d69-b691-0bfb7fef4029"
-					(reference "R7")
 					(unit 1)
 				)
 			)
