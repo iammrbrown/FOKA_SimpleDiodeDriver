@@ -5376,7 +5376,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "BJT"
+		(property "Value" "NMOS"
 			(at 0 -3.5 90)
 			(layer "B.Fab")
 			(uuid "0505849e-24bb-4c7e-afe2-c0504a891e3c")
@@ -5402,7 +5402,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5580,7 +5580,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net 4 "Net-(Q2-B)")
-			(pinfunction "B")
+			(pinfunction "G")
 			(pintype "input")
 			(uuid "cb6b7baf-6adf-42bf-aaeb-b6bd7b04b7c0")
 		)
@@ -5589,7 +5589,7 @@
 			(size 1.475 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 3 "Net-(D1-K)")
-			(pinfunction "C")
+			(pinfunction "D")
 			(pintype "passive")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
@@ -5614,7 +5614,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net 6 "Net-(Q2-E)")
-			(pinfunction "E")
+			(pinfunction "S")
 			(pintype "passive")
 			(uuid "fbacbb94-3bd9-424b-a0ba-fadb4a859279")
 		)
