@@ -2630,6 +2630,18 @@
 		(uuid "64b7c0fb-8050-4a29-8009-51dd156dba60")
 	)
 	(junction
+		(at 185.42 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d0080dd-15ac-47c6-9a23-0f2a19f17cd7")
+	)
+	(junction
+		(at 205.74 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "940fe13d-1b59-4746-ad3b-c62b696af78a")
+	)
+	(junction
 		(at 128.27 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2640,12 +2652,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a511d071-1ae6-46ee-acac-e489921f3da4")
-	)
-	(junction
-		(at 205.74 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abae2f0c-828e-4fd0-a964-ad33b5ebc71c")
 	)
 	(junction
 		(at 96.52 95.25)
@@ -2813,6 +2819,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 114.3) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb178b7-dd43-4b97-895d-ed4e1e7df2d7")
+	)
+	(wire
+		(pts
 			(xy 48.26 97.79) (xy 49.53 97.79)
 		)
 		(stroke
@@ -2830,6 +2846,16 @@
 			(type default)
 		)
 		(uuid "3c816f4d-4da6-4a4c-aa74-e2748b50e2a2")
+	)
+	(wire
+		(pts
+			(xy 198.12 114.3) (xy 205.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fb6bab-6359-4469-8eac-d9e2547ff38b")
 	)
 	(wire
 		(pts
@@ -3043,16 +3069,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 114.3) (xy 205.74 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ecd1ba8-dd52-4649-83cc-89ecbcaaa870")
-	)
-	(wire
-		(pts
 			(xy 59.69 68.58) (xy 59.69 69.85)
 		)
 		(stroke
@@ -3080,6 +3096,16 @@
 			(type default)
 		)
 		(uuid "99d01916-fd3d-4cbf-91a4-fd4ffc9725e0")
+	)
+	(wire
+		(pts
+			(xy 205.74 114.3) (xy 205.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4000fb-c611-4eb7-bcf1-21171c162dc1")
 	)
 	(wire
 		(pts
@@ -3140,6 +3166,16 @@
 			(type default)
 		)
 		(uuid "b69997f4-c1a5-484c-991d-79896bb908d1")
+	)
+	(wire
+		(pts
+			(xy 185.42 124.46) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f09a72-cd0b-4f6d-b354-73b123b59f52")
 	)
 	(wire
 		(pts
@@ -3243,6 +3279,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 114.3) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ccd618-498f-44cb-826c-b25821f8593f")
+	)
+	(wire
+		(pts
 			(xy 205.74 74.93) (xy 205.74 80.01)
 		)
 		(stroke
@@ -3260,6 +3306,16 @@
 			(type default)
 		)
 		(uuid "d36ecad7-50d1-465c-97e4-bec0b4cedf43")
+	)
+	(wire
+		(pts
+			(xy 173.99 114.3) (xy 185.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93e7c09-e113-4c2f-a170-bf57c561a202")
 	)
 	(wire
 		(pts
@@ -3340,16 +3396,6 @@
 			(type default)
 		)
 		(uuid "eb315dba-ea2b-4622-aa85-5eb84aa43052")
-	)
-	(wire
-		(pts
-			(xy 205.74 114.3) (xy 205.74 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f56c4c8c-a771-4084-95d3-fddb3dfc1815")
 	)
 	(wire
 		(pts
@@ -5866,6 +5912,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 185.42 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "833a391e-0f61-4910-b9e2-25999a19c2d7")
+		(property "Reference" "C5"
+			(at 187.96 123.1838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "optional"
+			(at 187.96 120.6438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86b69f1b-869c-4f83-9e8c-893ee7832607")
+		)
+		(pin "2"
+			(uuid "0fd2bb81-d0cc-4622-84f0-715e3562da5c")
+		)
+		(instances
+			(project "FOKA_SimpleDiodeDriver"
+				(path "/06dea30e-cb94-4d69-b691-0bfb7fef4029"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 96.52 96.52 0)
 		(unit 1)
@@ -6462,6 +6577,73 @@
 			(project "FOKA_SimpleDiodeDriver"
 				(path "/06dea30e-cb94-4d69-b691-0bfb7fef4029"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c14bf7e7-ac2b-46e8-bf64-360882801fc7")
+		(property "Reference" "#PWR025"
+			(at 185.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "333cccb7-b660-4bcb-ae8b-f8270c85f77d")
+		)
+		(instances
+			(project "FOKA_SimpleDiodeDriver"
+				(path "/06dea30e-cb94-4d69-b691-0bfb7fef4029"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7301,6 +7483,76 @@
 			(project "FOKA_SimpleDiodeDriver"
 				(path "/06dea30e-cb94-4d69-b691-0bfb7fef4029"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 194.31 114.3 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebb924da-ec68-4c94-a172-bc8d08e90e87")
+		(property "Reference" "R9"
+			(at 190.754 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "optional"
+			(at 190.754 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 194.31 112.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "134116b8-9e19-4286-af8b-4ad131122886")
+		)
+		(pin "2"
+			(uuid "bd3748b1-37d1-4092-a5d8-6f5b1277a53d")
+		)
+		(instances
+			(project "FOKA_SimpleDiodeDriver"
+				(path "/06dea30e-cb94-4d69-b691-0bfb7fef4029"
+					(reference "R9")
 					(unit 1)
 				)
 			)
